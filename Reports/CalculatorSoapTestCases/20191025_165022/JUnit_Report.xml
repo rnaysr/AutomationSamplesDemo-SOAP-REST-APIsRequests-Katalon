@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CalculatorSoapTestCases" time="17" tests="4" failures="0" errors="0">
+   <testsuite name="CalculatorSoapTestCases" tests="4" failures="0" errors="0" time="17" timestamp="2019-10-25 16:50:27" hostname="Zangabela - Rana-PC" id="Test Suites/CalculatorSoapTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zangabela\\Katalon Studio\\API Demo\\Reports\\CalculatorSoapTestCases\\20191025_165022"/>
+         <property name="logFiles" value="C:\\Users\\Zangabela\\Katalon Studio\\API Demo\\Reports\\CalculatorSoapTestCases\\20191025_165022\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.33"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/CalculatorSoapTestCases/Addition Service" classname="Test Cases/CalculatorSoapTestCases/Addition Service" status="PASSED">
+         <system-out><![CDATA[2019-10-25 16:50:27 - [TEST_CASE][PASSED] - Test Cases/CalculatorSoapTestCases/Addition Service: Test Cases/CalculatorSoapTestCases/Addition Service
+
+2019-10-25 16:50:29 - [TEST_STEP][PASSED] - Response = sendRequestAndVerify(findTestObject("CalculatorSoapServices/Addition Service")): Send request and verify the response successfully
+
+2019-10-25 16:50:35 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-10-25 16:50:36 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-10-25 16:50:36 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-10-25 16:50:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", "10"): Verify element property value successfully
+
+2019-10-25 16:50:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-10-25 16:50:36 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2019-10-25 16:50:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-10-25 16:50:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-10-25 16:50:37 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-10-25 16:50:37 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-10-25 16:50:37 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CalculatorSoapTestCases/Diviation Service" classname="Test Cases/CalculatorSoapTestCases/Diviation Service" status="PASSED">
+         <system-out><![CDATA[2019-10-25 16:50:37 - [TEST_CASE][PASSED] - Test Cases/CalculatorSoapTestCases/Diviation Service: Test Cases/CalculatorSoapTestCases/Diviation Service
+
+2019-10-25 16:50:38 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSoapServices/Diviation Service")): Send request successfully
+
+2019-10-25 16:50:40 - [MESSAGE][INFO] - HAR: C:\Users\Zangabela\Katalon Studio\API Demo\Reports\CalculatorSoapTestCases\20191025_165022\requests\main\null.har
+
+2019-10-25 16:50:40 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CalculatorSoapTestCases/Multiply Service" classname="Test Cases/CalculatorSoapTestCases/Multiply Service" status="PASSED">
+         <system-out><![CDATA[2019-10-25 16:50:40 - [TEST_CASE][PASSED] - Test Cases/CalculatorSoapTestCases/Multiply Service: Test Cases/CalculatorSoapTestCases/Multiply Service
+
+2019-10-25 16:50:41 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSoapServices/Multiple Service")): Send request successfully
+
+2019-10-25 16:50:42 - [MESSAGE][INFO] - HAR: C:\Users\Zangabela\Katalon Studio\API Demo\Reports\CalculatorSoapTestCases\20191025_165022\requests\main\null.har
+
+2019-10-25 16:50:42 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CalculatorSoapTestCases/Subtraction Service" classname="Test Cases/CalculatorSoapTestCases/Subtraction Service" status="PASSED">
+         <system-out><![CDATA[2019-10-25 16:50:42 - [TEST_CASE][PASSED] - Test Cases/CalculatorSoapTestCases/Subtraction Service: Test Cases/CalculatorSoapTestCases/Subtraction Service
+
+2019-10-25 16:50:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("CalculatorSoapServices/Subtraction Service")): Send request successfully
+
+2019-10-25 16:50:44 - [MESSAGE][INFO] - HAR: C:\Users\Zangabela\Katalon Studio\API Demo\Reports\CalculatorSoapTestCases\20191025_165022\requests\main\null.har
+
+2019-10-25 16:50:44 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-25 16:50:27 - [TEST_SUITE][PASSED] - CalculatorSoapTestCases: Test Cases/CalculatorSoapTestCases/Subtraction Service]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
