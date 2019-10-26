@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CalculatorSoapTestCases</name>
+   <name>HTTPMethods</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,29 +9,29 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>2b614608-c0d6-438c-8e12-0360ae7642de</testSuiteGuid>
+   <testSuiteGuid>51b5b2a6-305a-4431-bad7-c3079ae20647</testSuiteGuid>
    <testCaseLink>
-      <guid>aff47717-2fa7-4719-9ad8-19e40ff876ec</guid>
+      <guid>7d1d57eb-4821-45ee-8c90-a44e1527e009</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Addition Service</testCaseId>
+      <testCaseId>Test Cases/Users_RESTWebService/HTTPMethods</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>aa87c41d-3ce2-49ae-9a52-e980d358fecf</guid>
+      <guid>fd45dcc9-8eb3-4573-bdec-1a00664efb6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Diviation Service</testCaseId>
+      <testCaseId>Test Cases/Users_RESTWebService/ViewListUsers_Verify</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a75336d-47f3-4e71-84e1-566deeca603b</guid>
+      <guid>2aa24ad4-7055-4626-9d9d-16471a686e5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Multiply Service</testCaseId>
+      <testCaseId>Test Cases/Users_RESTWebService/HTTPMethods</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7454c72-d559-4699-b6d1-79d35217e5e6</guid>
+      <guid>caa86d39-3f32-4009-a630-2c30cf5d650a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Subtraction Service</testCaseId>
+      <testCaseId>Test Cases/Users_RESTWebService/ViewListUsers_Verify</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

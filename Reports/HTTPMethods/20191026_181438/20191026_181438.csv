@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HTTPMethods,,,,2019-10-26 18:14:47,2019-10-26 18:15:06,18.824s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/HTTPMethods,,,,2019-10-26 18:14:48,2019-10-26 18:14:59,11.244s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-10-26 18:14:49,2019-10-26 18:14:56,7.291s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/CreateUser""))",,,,2019-10-26 18:14:56,2019-10-26 18:14:57,1.037s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Update""))",,,,2019-10-26 18:14:57,2019-10-26 18:14:58,0.896s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Delete""))",,,,2019-10-26 18:14:58,2019-10-26 18:14:59,0.665s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/ViewListUsers_Verify,,,,2019-10-26 18:14:59,2019-10-26 18:15:01,1.818s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-10-26 18:14:59,2019-10-26 18:15:01,1.088s,PASSED
+"verifyElementPropertyValue(Response, ""data[2].first_name"", ""Tobias"")",,,,2019-10-26 18:15:01,2019-10-26 18:15:01,0.036s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].id"", ""7"")",,,,2019-10-26 18:15:01,2019-10-26 18:15:01,0.035s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/HTTPMethods,,,,2019-10-26 18:15:01,2019-10-26 18:15:04,3.759s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-10-26 18:15:01,2019-10-26 18:15:02,1.296s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/CreateUser""))",,,,2019-10-26 18:15:02,2019-10-26 18:15:03,0.838s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Update""))",,,,2019-10-26 18:15:03,2019-10-26 18:15:04,0.756s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Delete""))",,,,2019-10-26 18:15:04,2019-10-26 18:15:04,0.838s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/ViewListUsers_Verify,,,,2019-10-26 18:15:04,2019-10-26 18:15:06,1.155s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-10-26 18:15:04,2019-10-26 18:15:05,1.060s,PASSED
+"verifyElementPropertyValue(Response, ""data[2].first_name"", ""Tobias"")",,,,2019-10-26 18:15:05,2019-10-26 18:15:05,0.028s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].id"", ""7"")",,,,2019-10-26 18:15:05,2019-10-26 18:15:06,0.032s,PASSED
