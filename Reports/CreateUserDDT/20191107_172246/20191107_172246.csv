@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreateUserDDT,,,,2019-11-07 17:22:58,2019-11-07 17:23:07,9.283s,PASSED
+,,,,,,,
+Test Cases/CreateUserByDDT,,,,2019-11-07 17:22:58,2019-11-07 17:23:05,6.651s,PASSED
+"println(""username is "" + username)",,,,2019-11-07 17:22:59,2019-11-07 17:22:59,0.031s,PASSED
+"sendRequest(findTestObject(""ListOfUsersRestService/CreateUser"", [""username"":username]))",,,,2019-11-07 17:22:59,2019-11-07 17:23:05,5.846s,PASSED
+,,,,,,,
+Test Cases/CreateUserByDDT,,,,2019-11-07 17:23:05,2019-11-07 17:23:07,2.114s,PASSED
+"println(""username is "" + username)",,,,2019-11-07 17:23:05,2019-11-07 17:23:05,0.005s,PASSED
+"sendRequest(findTestObject(""ListOfUsersRestService/CreateUser"", [""username"":username]))",,,,2019-11-07 17:23:05,2019-11-07 17:23:07,2.087s,PASSED

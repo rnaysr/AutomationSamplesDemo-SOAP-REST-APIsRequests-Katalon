@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 Response = WS.sendRequestAndVerify(findTestObject('ListOfUsersRestService/ViewListOfUsers'))
 
+WS.verifyResponseStatusCode(findTestObject(Response), 200)
+
 WS.verifyElementPropertyValue(Response, 'data[2].first_name', 'Tobias')
 
 WS.verifyElementPropertyValue(Response, 'data[0].id', '7')

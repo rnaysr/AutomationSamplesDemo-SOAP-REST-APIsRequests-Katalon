@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+APIChainingJson,,,,2019-11-07 16:10:39,2019-11-07 16:10:48,9.030s,PASSED
+,,,,,,,
+Test Cases/APIChaining.JSON/RESTAPIChaining.JSON,,,,2019-11-07 16:10:40,2019-11-07 16:10:48,8.213s,PASSED
+"Response = sendRequest(findTestObject(""UserRestService-Extracting data from JSON responses and chaining requests/ListUsers""))",, call listofuser api in a variable =response ,,2019-11-07 16:10:41,2019-11-07 16:10:47,6.151s,PASSED
+slurper = new groovy.json.JsonSlurper(),, parsing json file ,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.032s,PASSED
+result = slurper.parseText(Response.getResponseBodyContent()),,,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.047s,PASSED
+value = first_name,, get index of location of the user and put it in value ,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.019s,PASSED
+"println(""value is "" + value)",, print value ,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.010s,PASSED
+username = value,, add value in global variable ,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.305s,PASSED
+"println(""global variable is :"" + username)",, print global variable ,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.004s,PASSED
+""" call other api that has a global variable """,,,,2019-11-07 16:10:47,2019-11-07 16:10:47,0.005s,PASSED
+"sendRequest(findTestObject(""UserRestService-Extracting data from JSON responses and chaining requests/UpdateUser"", [""username"":first_name]))",, Passing Values from Response to Request  ,,2019-11-07 16:10:47,2019-11-07 16:10:48,0.719s,PASSED

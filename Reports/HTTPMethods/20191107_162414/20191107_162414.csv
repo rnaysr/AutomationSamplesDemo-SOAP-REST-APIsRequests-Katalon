@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HTTPMethods,,,,2019-11-07 16:26:03,2019-11-07 16:26:32,29.287s,ERROR
+,,,,,,,
+Test Cases/Users_RESTWebService/HTTPMethods,,,,2019-11-07 16:26:04,2019-11-07 16:26:16,12.207s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-11-07 16:26:05,2019-11-07 16:26:13,8.313s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/CreateUser""))",,,,2019-11-07 16:26:13,2019-11-07 16:26:14,1.290s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Update""))",,,,2019-11-07 16:26:14,2019-11-07 16:26:15,0.842s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Delete""))",,,,2019-11-07 16:26:15,2019-11-07 16:26:16,0.841s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/ViewListUsers_Verify,,,,2019-11-07 16:26:16,2019-11-07 16:26:21,4.728s,ERROR
+"Response = sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-11-07 16:26:16,2019-11-07 16:26:21,4.372s,PASSED
+"verifyResponseStatusCode(findTestObject(Response), 200)",,,,2019-11-07 16:26:21,2019-11-07 16:26:21,0.002s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/HTTPMethods,,,,2019-11-07 16:26:21,2019-11-07 16:26:30,9.751s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-11-07 16:26:21,2019-11-07 16:26:24,3.445s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/CreateUser""))",,,,2019-11-07 16:26:24,2019-11-07 16:26:27,3.302s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Update""))",,,,2019-11-07 16:26:27,2019-11-07 16:26:29,1.249s,PASSED
+"sendRequestAndVerify(findTestObject(""ListOfUsersRestService/Delete""))",,,,2019-11-07 16:26:29,2019-11-07 16:26:30,1.732s,PASSED
+,,,,,,,
+Test Cases/Users_RESTWebService/ViewListUsers_Verify,,,,2019-11-07 16:26:30,2019-11-07 16:26:32,1.847s,ERROR
+"Response = sendRequestAndVerify(findTestObject(""ListOfUsersRestService/ViewListOfUsers""))",,,,2019-11-07 16:26:30,2019-11-07 16:26:32,1.822s,PASSED
+"verifyResponseStatusCode(findTestObject(Response), 200)",,,,2019-11-07 16:26:32,2019-11-07 16:26:32,0.000s,PASSED

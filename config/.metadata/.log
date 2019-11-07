@@ -351,3 +351,170 @@ java.net.UnknownHostException: update.katalon.com
 Fri Oct 25 19:50:21 EET 2019
 Cannot send request, retry to send.
 
+katalon.versionNumber=6.1.4
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'katalon.composer.objectrepository.handledmenuitem.spyweb'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS missing message: BTN_ADDTESTSUITE in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS missing message: MSG_FORUM_SEARCH in: com.kms.katalon.constants.messages
+!SESSION 2019-11-07 17:54:30.286 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\Work\Katalon Studio\API Demo\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config D:\Work\Katalon Studio\API Demo\.project
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-07 17:54:50.739
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Zangabela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2019-11-07 17:55:48.107
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-07 17:55:48.107
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e44f989,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.kms.katalon.composer.execution.command.debug,,
+		Debug,
+		Category(org.eclipse.e4.ui.model.application.MApplication,Application Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f6e6f50,
+		[Parameter(com.kms.katalon.composer.execution.runMode,Run Mode,null,true)],,true),[org.eclipse.core.commands.Parameterization@de6e4672]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow ,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-11-07 17:55:59.634
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:559)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:153)
+	at com.kms.katalon.controller.ProjectController.openProjectForUI(ProjectController.java:82)
+	at com.kms.katalon.composer.project.handlers.OpenProjectHandler$1.run(OpenProjectHandler.java:152)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\Work\Katalon Studio\API Demo overlaps the workspace location: D:\Work\Katalon Studio\API Demo\config
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-11-07 17:55:59.636
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2019-11-07 17:55:59.636
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2019-11-07 17:55:59.636
+!MESSAGE D:\Work\Katalon Studio\API Demo overlaps the workspace location: D:\Work\Katalon Studio\API Demo\config
+katalon.versionNumber=6.1.4
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'katalon.composer.objectrepository.handledmenuitem.spyweb'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS missing message: BTN_ADDTESTSUITE in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS missing message: MSG_FORUM_SEARCH in: com.kms.katalon.constants.messages
+!SESSION 2019-11-07 17:56:17.185 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\Work\Katalon Studio\API Demo\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config D:\Work\Katalon Studio\API Demo\.project
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-07 17:56:34.609
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Zangabela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2019-11-07 17:57:18.544
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-07 17:57:18.544
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c0a4f87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.kms.katalon.composer.execution.command.debug,,
+		Debug,
+		Category(org.eclipse.e4.ui.model.application.MApplication,Application Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@690677de,
+		[Parameter(com.kms.katalon.composer.execution.runMode,Run Mode,null,true)],,true),[org.eclipse.core.commands.Parameterization@de6e4672]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow ,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-11-07 17:57:24.939
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.kms.katalon.composer.handlers.ImportSettingsHandler.execute(ImportSettingsHandler.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.kms.katalon.core.application.Application.internalRunGUI(Application.java:119)
+	at com.kms.katalon.core.application.Application.runGUI(Application.java:109)
+	at com.kms.katalon.core.application.Application.start(Application.java:67)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)

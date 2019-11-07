@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CalculatorSoapTestCases,,,,2019-11-07 16:25:08,2019-11-07 16:25:27,19.002s,PASSED
+,,,,,,,
+Test Cases/Calculator_SoapWEBService/Addition Service,,,,2019-11-07 16:25:08,2019-11-07 16:25:19,11.323s,PASSED
+"Response = sendRequestAndVerify(findTestObject(""CalculatorSoapServices/Addition Service""))",,,,2019-11-07 16:25:09,2019-11-07 16:25:19,10.265s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2019-11-07 16:25:19,2019-11-07 16:25:19,0.016s,PASSED
+"verifyElementText(Response, ""AddResponse.AddResult"", ""10"")",,,,2019-11-07 16:25:19,2019-11-07 16:25:19,0.171s,PASSED
+"assert getResponseText().contains(""AddResult"")",,,,2019-11-07 16:25:19,2019-11-07 16:25:19,0.005s,PASSED
+,,,,,,,
+Test Cases/Calculator_SoapWEBService/Diviation Service,,,,2019-11-07 16:25:19,2019-11-07 16:25:22,2.722s,PASSED
+"sendRequest(findTestObject(""CalculatorSoapServices/Diviation Service""))",,,,2019-11-07 16:25:20,2019-11-07 16:25:22,1.830s,PASSED
+,,,,,,,
+Test Cases/Calculator_SoapWEBService/Multiply Service,,,,2019-11-07 16:25:22,2019-11-07 16:25:24,2.233s,PASSED
+"sendRequest(findTestObject(""CalculatorSoapServices/Multiple Service""))",,,,2019-11-07 16:25:22,2019-11-07 16:25:24,1.863s,PASSED
+,,,,,,,
+Test Cases/Calculator_SoapWEBService/Subtraction Service,,,,2019-11-07 16:25:24,2019-11-07 16:25:26,2.075s,PASSED
+"sendRequest(findTestObject(""CalculatorSoapServices/Subtraction Service""))",,,,2019-11-07 16:25:25,2019-11-07 16:25:26,1.471s,PASSED

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateUserDDT" time="9" tests="2" failures="0" errors="0">
+   <testsuite name="CreateUserDDT" tests="2" failures="0" errors="0" time="9" timestamp="2019-11-07 17:22:58" hostname="Zangabela - Rana-PC" id="Test Suites/CreateUserDDT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\CreateUserDDT\\20191107_172246"/>
+         <property name="logFiles" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\CreateUserDDT\\20191107_172246\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.33"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/CreateUserByDDT" classname="Test Cases/CreateUserByDDT" status="PASSED">
+         <system-out><![CDATA[2019-11-07 17:22:58 - [TEST_CASE][PASSED] - Test Cases/CreateUserByDDT: Test Cases/CreateUserByDDT
+
+2019-11-07 17:22:59 - [TEST_STEP][PASSED] - println("username is " + username): null
+
+2019-11-07 17:22:59 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ListOfUsersRestService/CreateUser", ["username":username])): Send request successfully
+
+2019-11-07 17:23:05 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\CreateUserDDT\20191107_172246\requests\main\null.har
+
+2019-11-07 17:23:05 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUserByDDT" classname="Test Cases/CreateUserByDDT" status="PASSED">
+         <system-out><![CDATA[2019-11-07 17:23:05 - [TEST_CASE][PASSED] - Test Cases/CreateUserByDDT: Test Cases/CreateUserByDDT
+
+2019-11-07 17:23:05 - [TEST_STEP][PASSED] - println("username is " + username): null
+
+2019-11-07 17:23:05 - [TEST_STEP][PASSED] - sendRequest(findTestObject("ListOfUsersRestService/CreateUser", ["username":username])): Send request successfully
+
+2019-11-07 17:23:07 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\CreateUserDDT\20191107_172246\requests\main\null.har
+
+2019-11-07 17:23:07 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-07 17:22:58 - [TEST_SUITE][PASSED] - CreateUserDDT: Test Cases/CreateUserByDDT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

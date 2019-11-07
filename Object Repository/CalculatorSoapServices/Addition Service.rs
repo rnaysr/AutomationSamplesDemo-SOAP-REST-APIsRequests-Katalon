@@ -48,6 +48,11 @@ assertThat(response.getResponseText()).contains('AddResult')
 
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+
+
+</verificationScript>
    <wsdlAddress>http://www.dneonline.com/calculator.asmx?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

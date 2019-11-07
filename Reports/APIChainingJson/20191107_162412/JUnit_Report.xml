@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="APIChainingJson" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="APIChainingJson" tests="1" failures="0" errors="0" time="10" timestamp="2019-11-07 16:24:21" hostname="Zangabela - Rana-PC" id="Test Suites/APIChainingJson">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\APIChainingJson\\20191107_162412"/>
+         <property name="logFiles" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\APIChainingJson\\20191107_162412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.33"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/APIChaining.JSON/RESTAPIChaining.JSON" classname="Test Cases/APIChaining.JSON/RESTAPIChaining.JSON" status="PASSED">
+         <system-out><![CDATA[2019-11-07 16:24:22 - [TEST_CASE][PASSED] - Test Cases/APIChaining.JSON/RESTAPIChaining.JSON: Test Cases/APIChaining.JSON/RESTAPIChaining.JSON
+
+2019-11-07 16:24:23 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("UserRestService-Extracting data from JSON responses and chaining requests/ListUsers")): Send request successfully
+
+2019-11-07 16:24:29 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\APIChainingJson\20191107_162412\requests\main\null.har
+
+2019-11-07 16:24:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-07 16:24:29 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-11-07 16:24:29 - [TEST_STEP][PASSED] - result = slurper.parseText(Response.getResponseBodyContent()): null
+
+2019-11-07 16:24:29 - [TEST_STEP][PASSED] - value = first_name: null
+
+2019-11-07 16:24:29 - [TEST_STEP][PASSED] - println("value is " + value): null
+
+2019-11-07 16:24:29 - [TEST_STEP][PASSED] - username = value: null
+
+2019-11-07 16:24:30 - [TEST_STEP][PASSED] - println("global variable is :" + username): null
+
+2019-11-07 16:24:30 - [TEST_STEP][PASSED] - " call other api that has a global variable ": null
+
+2019-11-07 16:24:30 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService-Extracting data from JSON responses and chaining requests/UpdateUser", ["username":first_name])): Send request successfully
+
+2019-11-07 16:24:32 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\APIChainingJson\20191107_162412\requests\main\null.har
+
+2019-11-07 16:24:32 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-07 16:24:21 - [TEST_SUITE][PASSED] - APIChainingJson: Test Cases/APIChaining.JSON/RESTAPIChaining.JSON]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

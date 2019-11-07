@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-07T16:24:21</date>
+  <millis>1573136661964</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/APIChainingJson</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">APIChainingJson</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/APIChainingJson</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:21</date>
+  <millis>1573136661993</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Zangabela - Rana-PC</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Zangabela - Rana-PC</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:21</date>
+  <millis>1573136661996</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:21</date>
+  <millis>1573136661997</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.33</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.33</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:22</date>
+  <millis>1573136662001</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.4.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.4.1</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:22</date>
+  <millis>1573136662505</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/APIChaining.JSON/RESTAPIChaining.JSON</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/APIChaining.JSON/RESTAPIChaining.JSON</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/APIChaining.JSON/RESTAPIChaining.JSON</property>
+  <property name="source">D:\\Work\\Katalon Studio\\API Demo\\Test Cases\\APIChaining.JSON\\RESTAPIChaining.JSON.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:23</date>
+  <millis>1573136663381</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Response = sendRequest(findTestObject(\&amp;quot;UserRestService-Extracting data from JSON responses and chaining requests/ListUsers\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description"> call listofuser api in a variable =response </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669693</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: D:\\Work\\Katalon Studio\\API Demo\\Reports\\APIChainingJson\\20191107_162412\\requests\\main\\null.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9bd0c423-6bc6-4479-93d4-8f13185f9d1c</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669849</millis>
+  <sequence>12</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669850</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Response = sendRequest(findTestObject(\&amp;quot;UserRestService-Extracting data from JSON responses and chaining requests/ListUsers\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669851</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description"> parsing json file </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669881</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669886</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : result = slurper.parseText(Response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669937</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : result = slurper.parseText(Response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669938</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : value = first_name</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">4</property>
+  <property name="description"> get index of location of the user and put it in value </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669954</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : value = first_name</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669958</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;value is \&amp;quot; + value)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+  <property name="description"> print value </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669980</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;value is \&amp;quot; + value)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:29</date>
+  <millis>1573136669983</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : username = value</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+  <property name="description"> add value in global variable </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:30</date>
+  <millis>1573136670368</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : username = value</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:30</date>
+  <millis>1573136670370</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;global variable is :\&amp;quot; + username)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+  <property name="description"> print global variable </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:30</date>
+  <millis>1573136670372</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;global variable is :\&amp;quot; + username)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:30</date>
+  <millis>1573136670373</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : \&amp;quot; call other api that has a global variable \&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:30</date>
+  <millis>1573136670379</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : \&amp;quot; call other api that has a global variable \&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:30</date>
+  <millis>1573136670380</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;UserRestService-Extracting data from JSON responses and chaining requests/UpdateUser\&amp;quot;, [\&amp;quot;username\&amp;quot;:first_name]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">9</property>
+  <property name="description"> Passing Values from Response to Request  </property>
+</record>
+<record>
+  <date>2019-11-07T16:24:32</date>
+  <millis>1573136672443</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: D:\\Work\\Katalon Studio\\API Demo\\Reports\\APIChainingJson\\20191107_162412\\requests\\main\\null.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2b4a46e5-914e-455b-9867-9d6dd4237c69</property>
+</record>
+<record>
+  <date>2019-11-07T16:24:32</date>
+  <millis>1573136672454</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:32</date>
+  <millis>1573136672454</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;UserRestService-Extracting data from JSON responses and chaining requests/UpdateUser\&amp;quot;, [\&amp;quot;username\&amp;quot;:first_name]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:32</date>
+  <millis>1573136672454</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/APIChaining.JSON/RESTAPIChaining.JSON</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:32</date>
+  <millis>1573136672455</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/APIChaining.JSON/RESTAPIChaining.JSON</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-07T16:24:32</date>
+  <millis>1573136672516</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/APIChainingJson</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

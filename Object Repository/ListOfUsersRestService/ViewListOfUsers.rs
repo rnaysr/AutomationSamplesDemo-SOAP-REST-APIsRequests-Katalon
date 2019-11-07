@@ -40,6 +40,10 @@ assertThat(response.getStatusCode()).isEqualTo(200)
 
 
 
-WS.verifyElementPropertyValue(response, 'data[2].first_name', 'Tobias')</verificationScript>
+WS.verifyElementPropertyValue(response, 'data[2].email', &quot;tobias.funke@reqres.in&quot;)
+WS.verifyElementPropertyValue(response, 'data[2].first_name', &quot;Tobias&quot;)
+WS.verifyElementPropertyValue(response, 'data[2].first_name', &quot;Tobias&quot;)
+
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
