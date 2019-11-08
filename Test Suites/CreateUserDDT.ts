@@ -14,7 +14,7 @@
       <guid>9099f25f-2495-43a6-b394-9f4ef0b86591</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateUserByDDT</testCaseId>
+      <testCaseId>Test Cases/DDTTestCasesMethod/CreateUserByDDT</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ab35477a-8fff-4573-bc9d-adbfa5e07614</id>
@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/username ddt</testDataId>
+         <testDataId>Data Files/DDTForUsers</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>ab35477a-8fff-4573-bc9d-adbfa5e07614</testDataLinkId>

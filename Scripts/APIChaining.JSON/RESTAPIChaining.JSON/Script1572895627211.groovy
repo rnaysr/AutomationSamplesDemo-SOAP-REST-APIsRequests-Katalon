@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 ' call listofuser api in a variable =response '
-Response = WS.sendRequest(findTestObject('UserRestService-Extracting data from JSON responses and chaining requests/ListUsers'))
+Response = WS.sendRequest(findTestObject('APIChaining.JSON/ListUsers'))
 
 ' parsing json file '
 def slurper = new groovy.json.JsonSlurper()
@@ -35,11 +35,11 @@ println('global variable is :' + GlobalVariable.username)
 
 ' call other api that has a global variable '
 
-//WS.sendRequestAndVerify(findTestObject('UserRestService-Extracting data from JSON responses and chaining requests/UpdateUser'))
+//WS.sendRequestAndVerify(findTestObject('APIChaining.JSON/UpdateUser'))
 
 ' Passing Values from Response to Request  '
 
-WS.sendRequest(findTestObject('UserRestService-Extracting data from JSON responses and chaining requests/UpdateUser', [('username') : result.data[0].first_name]))
+WS.sendRequest(findTestObject('APIChaining.JSON/UpdateUser', [('username') : result.data[0].first_name]))
 
 
 

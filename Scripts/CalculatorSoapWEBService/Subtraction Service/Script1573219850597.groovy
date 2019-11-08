@@ -13,5 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequest(findTestObject('CalculatorSoapServices/Diviation Service'))
+WS.sendRequest(findTestObject('CalculatorSoapWEBService/Subtraction Service'))
 

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('CountryinfoService/ListCountries'))
+Response = WS.sendRequest(findTestObject('APIChaining.XML/ListCountries'))
 
 // Parse XML file
 String xml1 = Response.responseBodyContent
@@ -38,5 +38,5 @@ GlobalVariable.countryCode = dataValue.ListOfCountryNamesByNameResponse.ListOfCo
 // print Gvalue 
 println('Global Variable : '+ GlobalVariable.countryCode)
 
-WS.sendRequestAndVerify(findTestObject('CountryinfoService/GetCapitalCity'))
+WS.sendRequestAndVerify(findTestObject('APIChaining.XML/GetCapitalCity'))
 

@@ -14,24 +14,24 @@
       <guid>7d1d57eb-4821-45ee-8c90-a44e1527e009</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Users_RESTWebService/HTTPMethods</testCaseId>
+      <testCaseId>Test Cases/ListOfUsersRestService/HTTPMethods</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fd45dcc9-8eb3-4573-bdec-1a00664efb6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Users_RESTWebService/ViewListUsers_Verify</testCaseId>
+      <testCaseId>Test Cases/ListOfUsersRestService/ViewListUsers_Verify</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2aa24ad4-7055-4626-9d9d-16471a686e5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Users_RESTWebService/HTTPMethods</testCaseId>
+      <testCaseId>Test Cases/ListOfUsersRestService/HTTPMethods</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>caa86d39-3f32-4009-a630-2c30cf5d650a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Users_RESTWebService/ViewListUsers_Verify</testCaseId>
+      <testCaseId>Test Cases/ListOfUsersRestService/ViewListUsers_Verify</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

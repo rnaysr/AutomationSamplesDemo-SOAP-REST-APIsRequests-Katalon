@@ -12,6 +12,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+// GET RESPONSE
+Response = WS.sendRequestAndVerify(findTestObject('CalculatorSoapWEBService/Addition Service'))
 
-WS.sendRequest(findTestObject('CalculatorSoapServices/Subtraction Service'))
+//VERIFY STATUS CODE
+WS.verifyResponseStatusCode(Response, 200)
 
+//VERIFY ELEMENT = SPECIFIC VALUE
+
+WS.verifyElementText(Response, 'AddResponse.AddResult', '10')
+
+//VERIFY ELEMENT
+assert(Response.getResponseText()).contains('AddResult')

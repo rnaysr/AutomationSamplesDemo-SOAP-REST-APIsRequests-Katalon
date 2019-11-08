@@ -14,24 +14,24 @@
       <guid>aff47717-2fa7-4719-9ad8-19e40ff876ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Addition Service</testCaseId>
+      <testCaseId>Test Cases/CalculatorSoapWEBService/Addition Service</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa87c41d-3ce2-49ae-9a52-e980d358fecf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Diviation Service</testCaseId>
+      <testCaseId>Test Cases/CalculatorSoapWEBService/Diviation Service</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9a75336d-47f3-4e71-84e1-566deeca603b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Multiply Service</testCaseId>
+      <testCaseId>Test Cases/CalculatorSoapWEBService/Multiply Service</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a7454c72-d559-4699-b6d1-79d35217e5e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator_SoapWEBService/Subtraction Service</testCaseId>
+      <testCaseId>Test Cases/CalculatorSoapWEBService/Subtraction Service</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
