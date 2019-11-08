@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DDTCountriesXML</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>2eca6478-46ca-49c5-a777-dd27434fd153</testSuiteGuid>
+   <testCaseLink>
+      <guid>2eb12033-90c5-4fad-ad91-e1f8044e42aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a0b5d64f-1ac1-4d7c-89ca-7548ec9ad4db</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DDTCountries</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a0b5d64f-1ac1-4d7c-89ca-7548ec9ad4db</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>countrycode</value>
+         <variableId>b5443d05-01c2-44e9-ac32-4fac8bb9a42b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a0b5d64f-1ac1-4d7c-89ca-7548ec9ad4db</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>capital</value>
+         <variableId>6ae108c5-9df5-42ef-9274-ac38532a03e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a0b5d64f-1ac1-4d7c-89ca-7548ec9ad4db</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currency</value>
+         <variableId>2227aeaa-31a0-4100-a7c1-4aa655056b20</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

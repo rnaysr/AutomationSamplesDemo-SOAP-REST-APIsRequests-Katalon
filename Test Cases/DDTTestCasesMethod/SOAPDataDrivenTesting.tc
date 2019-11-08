@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SOAPDataDrivenTesting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4e4b461-381c-4e52-b932-70b80017aeff</testCaseGuid>
+   <variable>
+      <defaultValue>'IN'</defaultValue>
+      <description></description>
+      <id>b5443d05-01c2-44e9-ac32-4fac8bb9a42b</id>
+      <masked>false</masked>
+      <name>countrycode</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Delhi'</defaultValue>
+      <description></description>
+      <id>6ae108c5-9df5-42ef-9274-ac38532a03e4</id>
+      <masked>false</masked>
+      <name>capital</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rupees'</defaultValue>
+      <description></description>
+      <id>2227aeaa-31a0-4100-a7c1-4aa655056b20</id>
+      <masked>false</masked>
+      <name>curruncy</name>
+   </variable>
+</TestCaseEntity>

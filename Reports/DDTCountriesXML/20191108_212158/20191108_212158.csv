@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDTCountriesXML,,,,2019-11-08 21:22:02,2019-11-08 21:22:16,14.590s,FAILED
+,,,,,,,
+Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting,,,,2019-11-08 21:22:03,2019-11-08 21:22:11,8.563s,PASSED
+"println("".........country code is : "" + countrycode)",,,,2019-11-08 21:22:03,2019-11-08 21:22:03,0.042s,PASSED
+"println("".........capital is : "" + capital)",,,,2019-11-08 21:22:03,2019-11-08 21:22:03,0.005s,PASSED
+"println("".........curruncy is : "" + curruncy)",,,,2019-11-08 21:22:03,2019-11-08 21:22:03,0.017s,PASSED
+"Response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity""))",,,,2019-11-08 21:22:03,2019-11-08 21:22:09,5.701s,PASSED
+"verifyElementText(Response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:22:09,2019-11-08 21:22:09,0.300s,PASSED
+"Response2 = sendRequest(findTestObject(""APIChaining.XML/GetCurrencySoapRequest""))",,,,2019-11-08 21:22:09,2019-11-08 21:22:11,1.692s,PASSED
+,,,,,,,
+Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting,,,,2019-11-08 21:22:11,2019-11-08 21:22:13,2.057s,FAILED
+"println("".........country code is : "" + countrycode)",,,,2019-11-08 21:22:11,2019-11-08 21:22:11,0.001s,PASSED
+"println("".........capital is : "" + capital)",,,,2019-11-08 21:22:11,2019-11-08 21:22:11,0.001s,PASSED
+"println("".........curruncy is : "" + curruncy)",,,,2019-11-08 21:22:11,2019-11-08 21:22:11,0.006s,PASSED
+"Response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity""))",,,,2019-11-08 21:22:11,2019-11-08 21:22:13,1.960s,PASSED
+"verifyElementText(Response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:22:13,2019-11-08 21:22:13,0.053s,FAILED
+,,,,,,,
+Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting,,,,2019-11-08 21:22:13,2019-11-08 21:22:16,3.267s,FAILED
+"println("".........country code is : "" + countrycode)",,,,2019-11-08 21:22:13,2019-11-08 21:22:13,0.002s,PASSED
+"println("".........capital is : "" + capital)",,,,2019-11-08 21:22:13,2019-11-08 21:22:13,0.002s,PASSED
+"println("".........curruncy is : "" + curruncy)",,,,2019-11-08 21:22:13,2019-11-08 21:22:13,0.002s,PASSED
+"Response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity""))",,,,2019-11-08 21:22:13,2019-11-08 21:22:16,3.186s,PASSED
+"verifyElementText(Response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:22:16,2019-11-08 21:22:16,0.052s,FAILED

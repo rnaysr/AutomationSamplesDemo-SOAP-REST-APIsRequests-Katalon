@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDTCountriesXML,,,,2019-11-08 21:45:19,2019-11-08 21:45:37,17.903s,PASSED
+,,,,,,,
+Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting,,,,2019-11-08 21:45:19,2019-11-08 21:45:29,10.152s,PASSED
+"println("".........country code is : "" + countrycode)",,,,2019-11-08 21:45:20,2019-11-08 21:45:20,0.003s,PASSED
+"println("".........capital is : "" + capital)",,,,2019-11-08 21:45:20,2019-11-08 21:45:20,0.014s,PASSED
+"println("".........curruncy is : "" + curruncy)",,,,2019-11-08 21:45:20,2019-11-08 21:45:20,0.034s,PASSED
+"Response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity"", [""countryISOCode"":countrycode]))",,,,2019-11-08 21:45:20,2019-11-08 21:45:27,6.846s,PASSED
+"verifyElementText(Response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:45:27,2019-11-08 21:45:27,0.314s,PASSED
+"Response2 = sendRequest(findTestObject(""APIChaining.XML/GetCurrencySoapRequest"", [""countryISOcode"":countrycode, ""Auth"":""Basic cmFuYTpyYW5h""]))",,,,2019-11-08 21:45:27,2019-11-08 21:45:29,2.100s,PASSED
+"verifyElementText(Response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", curruncy)",,,,2019-11-08 21:45:29,2019-11-08 21:45:29,0.055s,PASSED
+,,,,,,,
+Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting,,,,2019-11-08 21:45:29,2019-11-08 21:45:33,4.017s,PASSED
+"println("".........country code is : "" + countrycode)",,,,2019-11-08 21:45:29,2019-11-08 21:45:29,0.002s,PASSED
+"println("".........capital is : "" + capital)",,,,2019-11-08 21:45:29,2019-11-08 21:45:29,0.000s,PASSED
+"println("".........curruncy is : "" + curruncy)",,,,2019-11-08 21:45:29,2019-11-08 21:45:29,0.000s,PASSED
+"Response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity"", [""countryISOCode"":countrycode]))",,,,2019-11-08 21:45:29,2019-11-08 21:45:31,1.796s,PASSED
+"verifyElementText(Response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:45:31,2019-11-08 21:45:31,0.053s,PASSED
+"Response2 = sendRequest(findTestObject(""APIChaining.XML/GetCurrencySoapRequest"", [""countryISOcode"":countrycode, ""Auth"":""Basic cmFuYTpyYW5h""]))",,,,2019-11-08 21:45:31,2019-11-08 21:45:33,2.073s,PASSED
+"verifyElementText(Response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", curruncy)",,,,2019-11-08 21:45:33,2019-11-08 21:45:33,0.047s,PASSED
+,,,,,,,
+Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting,,,,2019-11-08 21:45:33,2019-11-08 21:45:37,3.173s,PASSED
+"println("".........country code is : "" + countrycode)",,,,2019-11-08 21:45:33,2019-11-08 21:45:33,0.000s,PASSED
+"println("".........capital is : "" + capital)",,,,2019-11-08 21:45:33,2019-11-08 21:45:33,0.011s,PASSED
+"println("".........curruncy is : "" + curruncy)",,,,2019-11-08 21:45:33,2019-11-08 21:45:33,0.000s,PASSED
+"Response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity"", [""countryISOCode"":countrycode]))",,,,2019-11-08 21:45:33,2019-11-08 21:45:35,1.689s,PASSED
+"verifyElementText(Response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:45:35,2019-11-08 21:45:35,0.019s,PASSED
+"Response2 = sendRequest(findTestObject(""APIChaining.XML/GetCurrencySoapRequest"", [""countryISOcode"":countrycode, ""Auth"":""Basic cmFuYTpyYW5h""]))",,,,2019-11-08 21:45:35,2019-11-08 21:45:36,1.377s,PASSED
+"verifyElementText(Response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", curruncy)",,,,2019-11-08 21:45:36,2019-11-08 21:45:37,0.041s,PASSED

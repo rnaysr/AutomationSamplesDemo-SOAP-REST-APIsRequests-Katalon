@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDTCountriesXML,,,,2019-11-08 21:25:56,2019-11-08 21:26:22,26.364s,PASSED
+,,,,,,,
+Test Cases/soap,,,,2019-11-08 21:25:56,2019-11-08 21:26:22,25.840s,PASSED
+"response1 = sendRequest(findTestObject(""APIChaining.XML/GetCapitalCity""))",,,,2019-11-08 21:25:57,2019-11-08 21:26:17,20.432s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", capital)",,,,2019-11-08 21:26:17,2019-11-08 21:26:18,0.301s,PASSED
+"response2 = sendRequest(findTestObject(""APIChaining.XML/GetCurrencySoapRequest""))",,,,2019-11-08 21:26:18,2019-11-08 21:26:22,4.233s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", currency1)",,,,2019-11-08 21:26:22,2019-11-08 21:26:22,0.039s,PASSED

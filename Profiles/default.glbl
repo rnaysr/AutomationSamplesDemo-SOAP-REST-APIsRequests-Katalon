@@ -11,8 +11,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AX'</initValue>
-      <name>countryCode</name>
+      <initValue>'IN'</initValue>
+      <name>countryISOCode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

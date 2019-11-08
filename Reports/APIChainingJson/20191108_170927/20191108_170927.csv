@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+APIChainingJson,,,,2019-11-08 17:09:37,2019-11-08 17:09:56,18.505s,PASSED
+,,,,,,,
+Test Cases/APIChaining.JSON/RESTAPIChaining.JSON,,,,2019-11-08 17:09:38,2019-11-08 17:09:56,17.169s,PASSED
+"Response = sendRequest(findTestObject(""APIChaining.JSON/ListUsers""))",, call listofuser api in a variable =response ,,2019-11-08 17:09:41,2019-11-08 17:09:54,12.476s,PASSED
+slurper = new groovy.json.JsonSlurper(),, parsing json file ,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.040s,PASSED
+result = slurper.parseText(Response.getResponseBodyContent()),,,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.496s,PASSED
+value = first_name,, get index of location of the user and put it in value ,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.025s,PASSED
+"println(""value is "" + value)",, print value ,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.114s,PASSED
+username = value,, add value in global variable ,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.007s,PASSED
+"println(""global variable is :"" + username)",, print global variable ,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.005s,PASSED
+""" call other api that has a global variable """,,,,2019-11-08 17:09:54,2019-11-08 17:09:54,0.049s,PASSED
+"sendRequest(findTestObject(""APIChaining.JSON/UpdateUser"", [""username"":first_name]))",, Passing Values from Response to Request  ,,2019-11-08 17:09:54,2019-11-08 17:09:55,1.155s,PASSED

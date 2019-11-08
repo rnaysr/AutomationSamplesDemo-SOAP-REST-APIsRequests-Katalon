@@ -13,30 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('APIChaining.XML/ListCountries'))
+Response = WS.sendRequest(findTestObject('APIChaining.XML/ListCountriesName'))
 
-// Parse XML file
+' Parse XML file '
 String xml1 = Response.responseBodyContent
 
 def dataValue = new XmlSlurper().parseText(xml1)
 
-assert dataValue.name() == 'ListOfCountryNamesByNameResponse'
+' get value that want to check and add to variable'
+def countrycode= dataValue.ListOfCountryNamesByNameResult.tCountryCodeAndName[0].sISOCode.text()
 
-// get value that want to check and add to variable 
+' countrycode '
+println("........countrycode : " +countrycode)
 
-String valueResponse = dataValue.ListOfCountryNamesByNameResponse.ListOfCountryNamesByNameResult.tCountryCodeAndName[0].sISOCode
+' put value in globalvariable '
+GlobalVariable.countryISOCode= countrycode
 
-assert valueResponse == 'AX'
 
-// THE EXTRACTED COUNTRY
 
-println(" THE EXTRACTED COUNTRY: "+ valueResponse)
+println("........Global Variable : " +GlobalVariable.countryISOCode)
 
-// put value in globalvariable 
-GlobalVariable.countryCode = dataValue.ListOfCountryNamesByNameResponse.ListOfCountryNamesByNameResult.tCountryCodeAndName[0].sISOCode
+ ' add other api that take the global variables {countrycode} '
+response=WS.sendRequestAndVerify(findTestObject('APIChaining.XML/GetCapitalCity'))
 
-// print Gvalue 
-println('Global Variable : '+ GlobalVariable.countryCode)
 
-WS.sendRequestAndVerify(findTestObject('APIChaining.XML/GetCapitalCity'))
-
+WS.verifyElementText(response, 'CapitalCityResponse.CapitalCityResult', 'Mariehamn')

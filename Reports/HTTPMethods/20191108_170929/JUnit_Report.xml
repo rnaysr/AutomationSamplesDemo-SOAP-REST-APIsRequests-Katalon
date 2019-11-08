@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HTTPMethods" time="24" tests="2" failures="0" errors="2">
+   <testsuite name="HTTPMethods" tests="2" failures="0" errors="2" time="24" timestamp="2019-11-08 17:09:51" hostname="Zangabela - Rana-PC" id="Test Suites/HTTPMethods">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\HTTPMethods\\20191108_170929"/>
+         <property name="logFiles" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\HTTPMethods\\20191108_170929\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/ListOfUsersRestService/HTTPMethods" classname="Test Cases/ListOfUsersRestService/HTTPMethods" status="PASSED">
+         <system-out><![CDATA[2019-11-08 17:09:52 - [TEST_CASE][PASSED] - Test Cases/ListOfUsersRestService/HTTPMethods: Test Cases/ListOfUsersRestService/HTTPMethods
+
+2019-11-08 17:09:54 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/ViewListOfUsers")): Send request and verify the response successfully
+
+2019-11-08 17:10:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-08 17:10:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:04 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-08 17:10:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in"): Verify element property value successfully
+
+2019-11-08 17:10:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:05 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:05 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/CreateUser")): Send request and verify the response successfully
+
+2019-11-08 17:10:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-11-08 17:10:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:06 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2019-11-08 17:10:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:06 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/Update")): Send request and verify the response successfully
+
+2019-11-08 17:10:07 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-08 17:10:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-08 17:10:07 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:07 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:07 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/Delete")): Send request and verify the response successfully
+
+2019-11-08 17:10:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2019-11-08 17:10:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:08 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2019-11-08 17:10:08 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:08 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListOfUsersRestService/ViewListUsers_Verify" classname="Test Cases/ListOfUsersRestService/ViewListUsers_Verify" status="ERROR">
+         <error type="ERROR" message="Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)
+"/>
+         <system-out><![CDATA[2019-11-08 17:10:08 - [TEST_CASE][ERROR] - Test Cases/ListOfUsersRestService/ViewListUsers_Verify: Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)
+
+
+2019-11-08 17:10:08 - [TEST_STEP][PASSED] - Response = sendRequestAndVerify(findTestObject("ListOfUsersRestService/ViewListOfUsers")): Send request and verify the response successfully
+
+2019-11-08 17:10:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-08 17:10:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in"): Verify element property value successfully
+
+2019-11-08 17:10:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:10 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(findTestObject(Response), 200): null]]></system-out>
+         <system-err><![CDATA[2019-11-08 17:10:08 - [TEST_CASE][ERROR] - Test Cases/ListOfUsersRestService/ViewListUsers_Verify: Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListOfUsersRestService/HTTPMethods" classname="Test Cases/ListOfUsersRestService/HTTPMethods" status="PASSED">
+         <system-out><![CDATA[2019-11-08 17:10:10 - [TEST_CASE][PASSED] - Test Cases/ListOfUsersRestService/HTTPMethods: Test Cases/ListOfUsersRestService/HTTPMethods
+
+2019-11-08 17:10:10 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/ViewListOfUsers")): Send request and verify the response successfully
+
+2019-11-08 17:10:11 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-08 17:10:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in"): Verify element property value successfully
+
+2019-11-08 17:10:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:11 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:11 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:11 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/CreateUser")): Send request and verify the response successfully
+
+2019-11-08 17:10:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:12 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:12 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-11-08 17:10:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:12 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+2019-11-08 17:10:12 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:12 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:12 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/Update")): Send request and verify the response successfully
+
+2019-11-08 17:10:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-08 17:10:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-08 17:10:13 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("ListOfUsersRestService/Delete")): Send request and verify the response successfully
+
+2019-11-08 17:10:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2019-11-08 17:10:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2019-11-08 17:10:13 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:13 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ListOfUsersRestService/ViewListUsers_Verify" classname="Test Cases/ListOfUsersRestService/ViewListUsers_Verify" status="ERROR">
+         <error type="ERROR" message="Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)
+"/>
+         <system-out><![CDATA[2019-11-08 17:10:13 - [TEST_CASE][ERROR] - Test Cases/ListOfUsersRestService/ViewListUsers_Verify: Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)
+
+
+2019-11-08 17:10:13 - [TEST_STEP][PASSED] - Response = sendRequestAndVerify(findTestObject("ListOfUsersRestService/ViewListOfUsers")): Send request and verify the response successfully
+
+2019-11-08 17:10:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-11-08 17:10:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].email", "tobias.funke@reqres.in"): Verify element property value successfully
+
+2019-11-08 17:10:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Tobias"): Verify element property value successfully
+
+2019-11-08 17:10:15 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-11-08 17:10:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:10:15 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:10:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(findTestObject(Response), 200): null]]></system-out>
+         <system-err><![CDATA[2019-11-08 17:10:13 - [TEST_CASE][ERROR] - Test Cases/ListOfUsersRestService/ViewListUsers_Verify: Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 17:09:51 - [TEST_SUITE][ERROR] - HTTPMethods: Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-11-08 17:09:51 - [TEST_SUITE][ERROR] - HTTPMethods: Test Cases/ListOfUsersRestService/ViewListUsers_Verify FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (com.kms.katalon.core.testobject.ResponseObject) values: [200 1 KB]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+	at ViewListUsers_Verify.run(ViewListUsers_Verify:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573225769927.run(TempTestSuite1573225769927.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

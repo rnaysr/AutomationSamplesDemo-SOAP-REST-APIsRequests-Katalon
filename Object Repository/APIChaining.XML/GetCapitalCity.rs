@@ -16,7 +16,7 @@
    <soapBody>&lt;Envelope xmlns=&quot;http://www.w3.org/2003/05/soap-envelope&quot;>
     &lt;Body>
         &lt;CapitalCity xmlns=&quot;http://www.oorsprong.org/websamples.countryinfo&quot;>
-            &lt;sCountryISOCode>${countryCode}&lt;/sCountryISOCode>
+            &lt;sCountryISOCode>${countryISOCode}&lt;/sCountryISOCode>
         &lt;/CapitalCity>
     &lt;/Body>
 &lt;/Envelope></soapBody>
@@ -24,11 +24,11 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceFunction>CapitalCity</soapServiceFunction>
    <variables>
-      <defaultValue>GlobalVariable.countryCode</defaultValue>
+      <defaultValue>GlobalVariable.countryISOCode</defaultValue>
       <description></description>
       <id>00430e58-d2bb-4404-8c91-77d18b9de57e</id>
       <masked>false</masked>
-      <name>countryCode</name>
+      <name>countryISOCode</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -44,6 +44,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-</verificationScript>
+
+WS.verifyElementText(response, 'CapitalCityResponse.CapitalCityResult', 'New Delhi')</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl</wsdlAddress>
 </WebServiceRequestEntity>

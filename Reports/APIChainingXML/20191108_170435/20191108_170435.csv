@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+APIChainingXML,,,,2019-11-08 17:04:39,2019-11-08 17:04:51,11.969s,PASSED
+,,,,,,,
+Test Cases/APIChaining.XML/GetCurruncyofanycountryusingISOcode,,,,2019-11-08 17:04:40,2019-11-08 17:04:46,6.578s,PASSED
+"sendRequest(findTestObject(""APIChaining.XML/GetCurrencySoapRequest""))",,,,2019-11-08 17:04:40,2019-11-08 17:04:46,5.800s,PASSED
+,,,,,,,
+Test Cases/APIChaining.XML/SOAPAPIChaining.XML,,,,2019-11-08 17:04:46,2019-11-08 17:04:51,4.376s,PASSED
+"Response = sendRequest(findTestObject(""APIChaining.XML/ListCountries""))",,,,2019-11-08 17:04:47,2019-11-08 17:04:48,1.323s,PASSED
+xml1 = responseBodyContent,, Parse XML file ,,2019-11-08 17:04:48,2019-11-08 17:04:48,0.523s,PASSED
+dataValue = XmlSlurper().parseText(xml1),,,,2019-11-08 17:04:48,2019-11-08 17:04:48,0.081s,PASSED
+countrycode = sISOCode.text(),, get value that want to check and add to variable,,2019-11-08 17:04:48,2019-11-08 17:04:49,0.070s,PASSED
+"println(""........countrycode : "" + countrycode)",, countrycode ,,2019-11-08 17:04:49,2019-11-08 17:04:49,0.060s,PASSED
+countryISOCode = countrycode,, put value in globalvariable ,,2019-11-08 17:04:49,2019-11-08 17:04:49,0.009s,PASSED
+"println(""........Global Variable : "" + countryISOCode)",,,,2019-11-08 17:04:49,2019-11-08 17:04:49,0.002s,PASSED
+"response = sendRequestAndVerify(findTestObject(""APIChaining.XML/GetCapitalCity""))",, add other api that take the global variables {countrycode} ,,2019-11-08 17:04:49,2019-11-08 17:04:50,1.663s,PASSED
+"verifyElementText(response, ""CapitalCityResponse.CapitalCityResult"", ""Mariehamn"")",,,,2019-11-08 17:04:50,2019-11-08 17:04:51,0.201s,PASSED

@@ -14,7 +14,7 @@
       <guid>9099f25f-2495-43a6-b394-9f4ef0b86591</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DDTTestCasesMethod/CreateUserByDDT</testCaseId>
+      <testCaseId>Test Cases/DDTTestCasesMethod/RESTCreateUserByDDT</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ab35477a-8fff-4573-bc9d-adbfa5e07614</id>

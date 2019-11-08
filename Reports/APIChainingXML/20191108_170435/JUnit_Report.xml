@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="APIChainingXML" time="11" tests="2" failures="0" errors="0">
+   <testsuite name="APIChainingXML" tests="2" failures="0" errors="0" time="11" timestamp="2019-11-08 17:04:39" hostname="Zangabela - Rana-PC" id="Test Suites/APIChainingXML">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\APIChainingXML\\20191108_170435"/>
+         <property name="logFiles" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\APIChainingXML\\20191108_170435\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/APIChaining.XML/GetCurruncyofanycountryusingISOcode" classname="Test Cases/APIChaining.XML/GetCurruncyofanycountryusingISOcode" status="PASSED">
+         <system-out><![CDATA[2019-11-08 17:04:40 - [TEST_CASE][PASSED] - Test Cases/APIChaining.XML/GetCurruncyofanycountryusingISOcode: Test Cases/APIChaining.XML/GetCurruncyofanycountryusingISOcode
+
+2019-11-08 17:04:40 - [TEST_STEP][PASSED] - sendRequest(findTestObject("APIChaining.XML/GetCurrencySoapRequest")): Send request successfully
+
+2019-11-08 17:04:46 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\APIChainingXML\20191108_170435\requests\main\null.har
+
+2019-11-08 17:04:46 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APIChaining.XML/SOAPAPIChaining.XML" classname="Test Cases/APIChaining.XML/SOAPAPIChaining.XML" status="PASSED">
+         <system-out><![CDATA[2019-11-08 17:04:46 - [TEST_CASE][PASSED] - Test Cases/APIChaining.XML/SOAPAPIChaining.XML: Test Cases/APIChaining.XML/SOAPAPIChaining.XML
+
+2019-11-08 17:04:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("APIChaining.XML/ListCountries")): Send request successfully
+
+2019-11-08 17:04:48 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\APIChainingXML\20191108_170435\requests\main\null.har
+
+2019-11-08 17:04:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 17:04:48 - [TEST_STEP][PASSED] - xml1 = responseBodyContent: null
+
+2019-11-08 17:04:48 - [TEST_STEP][PASSED] - dataValue = XmlSlurper().parseText(xml1): null
+
+2019-11-08 17:04:48 - [TEST_STEP][PASSED] - countrycode = sISOCode.text(): null
+
+2019-11-08 17:04:49 - [TEST_STEP][PASSED] - println("........countrycode : " + countrycode): null
+
+2019-11-08 17:04:49 - [TEST_STEP][PASSED] - countryISOCode = countrycode: null
+
+2019-11-08 17:04:49 - [TEST_STEP][PASSED] - println("........Global Variable : " + countryISOCode): null
+
+2019-11-08 17:04:49 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("APIChaining.XML/GetCapitalCity")): Send request and verify the response successfully
+
+2019-11-08 17:04:50 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-11-08 17:04:50 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-11-08 17:04:50 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-11-08 17:04:50 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-11-08 17:04:50 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-11-08 17:04:50 - [TEST_STEP][PASSED] - verifyElementText(response, "CapitalCityResponse.CapitalCityResult", "Mariehamn"): Verify element text successfully
+
+2019-11-08 17:04:51 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 17:04:39 - [TEST_SUITE][PASSED] - APIChainingXML: Test Cases/APIChaining.XML/SOAPAPIChaining.XML]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

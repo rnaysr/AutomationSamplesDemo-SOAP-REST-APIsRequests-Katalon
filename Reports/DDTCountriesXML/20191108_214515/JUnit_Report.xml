@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDTCountriesXML" time="17" tests="3" failures="0" errors="0">
+   <testsuite name="DDTCountriesXML" tests="3" failures="0" errors="0" time="17" timestamp="2019-11-08 21:45:19" hostname="Zangabela - Rana-PC" id="Test Suites/DDTCountriesXML">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\DDTCountriesXML\\20191108_214515"/>
+         <property name="logFiles" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\DDTCountriesXML\\20191108_214515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting" classname="Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting" status="PASSED">
+         <system-out><![CDATA[2019-11-08 21:45:19 - [TEST_CASE][PASSED] - Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting: Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting
+
+2019-11-08 21:45:20 - [TEST_STEP][PASSED] - println(".........country code is : " + countrycode): null
+
+2019-11-08 21:45:20 - [TEST_STEP][PASSED] - println(".........capital is : " + capital): null
+
+2019-11-08 21:45:20 - [TEST_STEP][PASSED] - println(".........curruncy is : " + curruncy): null
+
+2019-11-08 21:45:20 - [TEST_STEP][PASSED] - Response1 = sendRequest(findTestObject("APIChaining.XML/GetCapitalCity", ["countryISOCode":countrycode])): Send request successfully
+
+2019-11-08 21:45:27 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_214515\requests\main\null.har
+
+2019-11-08 21:45:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:45:27 - [TEST_STEP][PASSED] - verifyElementText(Response1, "CapitalCityResponse.CapitalCityResult", capital): Verify element text successfully
+
+2019-11-08 21:45:27 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-11-08 21:45:27 - [TEST_STEP][PASSED] - Response2 = sendRequest(findTestObject("APIChaining.XML/GetCurrencySoapRequest", ["countryISOcode":countrycode, "Auth":"Basic cmFuYTpyYW5h"])): Send request successfully
+
+2019-11-08 21:45:29 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_214515\requests\main\null.har
+
+2019-11-08 21:45:29 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:45:29 - [TEST_STEP][PASSED] - verifyElementText(Response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", curruncy): Verify element text successfully
+
+2019-11-08 21:45:29 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting" classname="Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting" status="PASSED">
+         <system-out><![CDATA[2019-11-08 21:45:29 - [TEST_CASE][PASSED] - Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting: Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting
+
+2019-11-08 21:45:29 - [TEST_STEP][PASSED] - println(".........country code is : " + countrycode): null
+
+2019-11-08 21:45:29 - [TEST_STEP][PASSED] - println(".........capital is : " + capital): null
+
+2019-11-08 21:45:29 - [TEST_STEP][PASSED] - println(".........curruncy is : " + curruncy): null
+
+2019-11-08 21:45:29 - [TEST_STEP][PASSED] - Response1 = sendRequest(findTestObject("APIChaining.XML/GetCapitalCity", ["countryISOCode":countrycode])): Send request successfully
+
+2019-11-08 21:45:31 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_214515\requests\main\null.har
+
+2019-11-08 21:45:31 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:45:31 - [TEST_STEP][PASSED] - verifyElementText(Response1, "CapitalCityResponse.CapitalCityResult", capital): Verify element text successfully
+
+2019-11-08 21:45:31 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-11-08 21:45:31 - [TEST_STEP][PASSED] - Response2 = sendRequest(findTestObject("APIChaining.XML/GetCurrencySoapRequest", ["countryISOcode":countrycode, "Auth":"Basic cmFuYTpyYW5h"])): Send request successfully
+
+2019-11-08 21:45:33 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_214515\requests\main\null.har
+
+2019-11-08 21:45:33 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:45:33 - [TEST_STEP][PASSED] - verifyElementText(Response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", curruncy): Verify element text successfully
+
+2019-11-08 21:45:33 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting" classname="Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting" status="PASSED">
+         <system-out><![CDATA[2019-11-08 21:45:33 - [TEST_CASE][PASSED] - Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting: Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting
+
+2019-11-08 21:45:33 - [TEST_STEP][PASSED] - println(".........country code is : " + countrycode): null
+
+2019-11-08 21:45:33 - [TEST_STEP][PASSED] - println(".........capital is : " + capital): null
+
+2019-11-08 21:45:33 - [TEST_STEP][PASSED] - println(".........curruncy is : " + curruncy): null
+
+2019-11-08 21:45:33 - [TEST_STEP][PASSED] - Response1 = sendRequest(findTestObject("APIChaining.XML/GetCapitalCity", ["countryISOCode":countrycode])): Send request successfully
+
+2019-11-08 21:45:35 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_214515\requests\main\null.har
+
+2019-11-08 21:45:35 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:45:35 - [TEST_STEP][PASSED] - verifyElementText(Response1, "CapitalCityResponse.CapitalCityResult", capital): Verify element text successfully
+
+2019-11-08 21:45:35 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-11-08 21:45:35 - [TEST_STEP][PASSED] - Response2 = sendRequest(findTestObject("APIChaining.XML/GetCurrencySoapRequest", ["countryISOcode":countrycode, "Auth":"Basic cmFuYTpyYW5h"])): Send request successfully
+
+2019-11-08 21:45:36 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_214515\requests\main\null.har
+
+2019-11-08 21:45:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:45:36 - [TEST_STEP][PASSED] - verifyElementText(Response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", curruncy): Verify element text successfully
+
+2019-11-08 21:45:37 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 21:45:19 - [TEST_SUITE][PASSED] - DDTCountriesXML: Test Cases/DDTTestCasesMethod/SOAPDataDrivenTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

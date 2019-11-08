@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDTCountriesXML" time="26" tests="1" failures="0" errors="0">
+   <testsuite name="DDTCountriesXML" tests="1" failures="0" errors="0" time="26" timestamp="2019-11-08 21:25:56" hostname="Zangabela - Rana-PC" id="Test Suites/DDTCountriesXML">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\DDTCountriesXML\\20191108_212551"/>
+         <property name="logFiles" value="D:\\Work\\Katalon Studio\\API Demo\\Reports\\DDTCountriesXML\\20191108_212551\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zangabela - Rana-PC"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+      </properties>
+      <testcase name="Test Cases/soap" classname="Test Cases/soap" status="PASSED">
+         <system-out><![CDATA[2019-11-08 21:25:56 - [TEST_CASE][PASSED] - Test Cases/soap: Test Cases/soap
+
+2019-11-08 21:25:57 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("APIChaining.XML/GetCapitalCity")): Send request successfully
+
+2019-11-08 21:26:17 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_212551\requests\main\null.har
+
+2019-11-08 21:26:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:26:17 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", capital): Verify element text successfully
+
+2019-11-08 21:26:18 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-11-08 21:26:18 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("APIChaining.XML/GetCurrencySoapRequest")): Send request successfully
+
+2019-11-08 21:26:22 - [MESSAGE][INFO] - HAR: D:\Work\Katalon Studio\API Demo\Reports\DDTCountriesXML\20191108_212551\requests\main\null.har
+
+2019-11-08 21:26:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-11-08 21:26:22 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", currency1): Verify element text successfully
+
+2019-11-08 21:26:22 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 21:25:56 - [TEST_SUITE][PASSED] - DDTCountriesXML: Test Cases/soap]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
